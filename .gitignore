@@ -9,13 +9,3 @@ cuda_installer.pyz
 # Logs
 *.log
 
-# Results
-results/
-results_*.json
-
-# Keep benchmark datasets
-!datasets/
-!datasets/*.json
-
-# Ignore scratch root-level generated datasets
-dataset_*.json
