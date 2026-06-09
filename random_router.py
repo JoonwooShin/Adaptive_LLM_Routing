@@ -4,8 +4,8 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-URL_SPECULATIVE = "http://localhost:8001/v1/chat/completions"
-URL_STANDARD    = "http://localhost:8002/v1/chat/completions"
+URL_SPECULATIVE = "http://localhost:8002/v1/chat/completions"
+URL_STANDARD    = "http://localhost:8001/v1/chat/completions"
 
 @asynccontextmanager
 async def lifespan(app):
